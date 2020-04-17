@@ -3,10 +3,10 @@
 
 @section("infoGeneral")
 
-<h1>IUsuario Registrado </h1>
+<h1>Nuevo Usuario Registrado </h1>
 
-<p>Utiliza el formulario para iniciar sesión en la aplicación.</p>
-<div class="container mt-5 mb-5 shadow col-md-6 pl-5 pr-5">					
+<p>Utiliza el formulario para registrarte como usuario registrado en la aplicación.</p>
+<div class="container mt-5 mb-2 shadow col-md-6 pl-5 pr-5">					
     <h2 class="text-center py-3"></h2>
     <div>
         <form id="formularioContacto" method="post" class="form-horizontal pb-5" action="http://localhost:8000">
@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="form-group row pb-2">
+            <div class="form-group row pt-3">
                 <div class="col-sm-9 offset-sm-4">
                     <button type="submit" class="btn btn-verde" name="enviar"  id="enviar">Enviar</button>
                 </div>

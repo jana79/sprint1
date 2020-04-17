@@ -3,9 +3,9 @@
 
 @section("infoGeneral")
 
-<h1>IUsuario Colaborador </h1>
+<h1>Nuevo Usuario Colaborador </h1>
 
-<p>Utiliza el formulario para iniciar sesión en la aplicación.</p>
+<p>Utiliza el formulario para registrate como usuario colaborador en la aplicación.</p>
 <div class="container mt-5 mb-5 shadow col-md-6 pl-5 pr-5">					
     <h2 class="text-center py-3"></h2>
     <div>

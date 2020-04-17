@@ -2,7 +2,7 @@
 
 
 @section("infoGeneral")
-<h1>Bienvenido a la sección de contacto</h1>
+<h1>Bienvenido a la sección de Contacta</h1>
 <p>Utiliza el formulario para ponerte en contacto con nosotros.
     Te responderemos a la mayor brevedad posible.</p>
 <div class="container mt-5 mb-5 shadow col-md-6 pl-5 pr-5">					
@@ -45,7 +45,7 @@
             <div class="form-group row">
                 <div class="col-sm-9 offset-sm-4">
                     <button type="ll
-                            mit" class="btn btn-primary" name="signup" value="Sign up" id= "enviar">Enviar</button>
+                            mit" class="btn btn-verde" name="signup" value="Sign up" id= "enviar">Enviar</button>
                 </div>
             </div>
         </form>
