@@ -99,5 +99,16 @@ body > .container {
 .sep{
     background-color: #006C11;
     color: white;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.portGral{
+    width: 50%;
+    margin: auto;
+    display: block;
+    
 }
 

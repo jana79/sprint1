@@ -25,6 +25,9 @@ Route::get('/crear', 'PruebaController@create');
 */
 
 Route::get('/poblaciones', 'PruebaController@poblaciones');
+Route::get('/poblaciones/abanto', 'PruebaController@abanto');
+Route::get('/poblaciones/acered', 'PruebaController@acered');
+Route::get('/poblaciones/agon', 'PruebaController@agon');
 Route::get('/actividades', 'PruebaController@actividades');
 Route::get('/colabora', 'PruebaController@colaborar');
 Route::get('/colabora/registrado', 'PruebaController@registrado');
@@ -33,3 +36,5 @@ Route::get('/contacta', 'PruebaController@contactar');
 Route::get('/', 'PruebaController@home');
 Route::get('/login', 'PruebaController@login');
 Route::get('/registro', 'PruebaController@registro');
+Route::get('/formActividad', 'PruebaController@formActividad');
+

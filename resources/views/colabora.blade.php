@@ -9,9 +9,9 @@
     o inscribirte en las actividades ofrecidas por otros colaboradores, 
     es necesario estar registrado.
     Elige como quieres registrarte y empieza a disfrutar compartiendo experiencias</p>
-<div class="container mt-5 mb-5 shadow col-md-8 pl-5 pr-5 pb-5">					
+<div class="container mt-5 mb-5 shadow col-md-8  pr-5 pb-5 mx-auto">					
     <h2 class="text-center py-5">Elige cómo quieres registrarte</h2>
-    <div class="col-6 d-flex justify-content-between">
+    <div class="col-md-8 d-flex justify-content-between">
         <div class="col-12">
             <i class="fas fa-user col-2"></i> Usuario registrado
             <ul>

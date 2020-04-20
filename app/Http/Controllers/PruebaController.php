@@ -50,6 +50,26 @@ class PruebaController extends Controller
     {
          return view('colaborador');
     }
+    
+    public function abanto()
+    {
+         return view('abanto');
+    }
+    
+    public function acered()
+    {
+         return view('acered');
+    }
+    
+    public function agon()
+    {
+         return view('agon');
+    }
+    
+    public function formActividad()
+    {
+         return view('formActividad');
+    }
     /**
      * Display a listing of the resource.
      *

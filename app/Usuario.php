@@ -16,3 +16,4 @@ class Usuario extends Model {
         'password','admin','colaborador','empresa', 'bloqueado'];
     
 }
+ 

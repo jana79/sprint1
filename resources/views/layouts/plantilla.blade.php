@@ -79,7 +79,7 @@
             </div>
         </section>
         <!-- Contenido -->
-        <section class="container">
+        <section class="container mx-auto">
             @yield("infoGeneral")
 
         </section>
