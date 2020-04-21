@@ -11,6 +11,26 @@ class PruebaController extends Controller
         return view('inicio');
     }
     
+    public function naturaleza()
+    {
+        return view('naturaleza');
+    }
+    
+    public function patrimonio()
+    {
+        return view('patrimonio');
+    }
+    
+    public function ocio()
+    {
+        return view('ocio');
+    }
+    
+    public function tradicion()
+    {
+        return view('tradicion');
+    }
+    
     public function colaborar()
     {
          return view('colabora');
@@ -66,9 +86,38 @@ class PruebaController extends Controller
          return view('agon');
     }
     
+    public function borja()
+    {
+         return view('borja');
+    }
+    
     public function formActividad()
     {
          return view('formActividad');
+    }
+    
+    public function ecceHomo()
+    {
+         return view('ecceHomo');
+    }
+    
+    public function monPiedra()
+    {
+         return view('monPiedra');
+    }
+    
+    public function contradanza()
+    {
+         return view('contradanza');
+    }
+    public function colegiata()
+    {
+         return view('colegiata');
+    }
+    
+    public function museoVino()
+    {
+         return view('museoVino');
     }
     /**
      * Display a listing of the resource.

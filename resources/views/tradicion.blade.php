@@ -3,15 +3,11 @@
 
 @section("infoGeneral")
 <div>
-    <h1>Bienvenido a Zar~rural</h1>
+    <h1>Actividades de Tradición</h1>
 </div>
 <p class="lead">Si estás buscando un plan para el fin de semana, 
     Semana Santa o incluso vacaciones, ¡estás en el sitio correcto!.</p>
-<p> Zaragoza es una provincia que encierra muchísimos tesoros por 
-    descubrir a nivel de patrimonio, cultura, ocio y naturaleza. 
-    Puedes buscar la población que quieras para consultar su oferta 
-    de actividades o buscar entre las actividades disponibles 
-    aquella que te apetezca probar. ¡Esperamos que disfrutes!</p>
+
 <div class="row container mx-auto pt-3">
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 text-center verde">Ecce Homo</h4>

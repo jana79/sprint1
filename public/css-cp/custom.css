@@ -26,6 +26,7 @@ body {
 h1 {
     text-align: center;
     padding-bottom: 15px;
+    color:#006C11;
 }
 
 p{
@@ -112,3 +113,16 @@ body > .container {
     
 }
 
+.imgInicio{
+    width: 313px;
+    height: 200px;
+}
+
+.imgAct{
+    width: 485px;
+    height: 272px;
+}
+
+ul>li {
+    list-style:none;
+}

@@ -9,7 +9,7 @@
 <div class="container mt-5 mb-5 shadow col-md-6 pl-5 pr-5">					
     <h2 class="text-center py-3"></h2>
     <div>
-        <form id="formularioContacto" method="post" class="form-horizontal pb-5" action="http://localhost:8000">
+        <form id="formularioLogin" method="post" class="form-horizontal pb-5" action="http://localhost:8000">
             <div class="form-group row">
                 <label class="col-sm-4 col-form-label" for="usuario">Usuario</label>
                 <div class="col-sm-6">

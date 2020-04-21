@@ -64,7 +64,7 @@
                 <li class="col-12 col-md-6 col-lg-4"><a id="052" href="#" title="Guía de Bisimbre">Bisimbre</a></li>
                 <li class="col-12 col-md-6 col-lg-4"><a id="053" href="#" title="Guía de Boquiñeni">Boquiñeni</a></li>
                 <li class="col-12 col-md-6 col-lg-4"><a id="054" href="#" title="Guía de Bordalba">Bordalba</a></li>
-                <li class="col-12 col-md-6 col-lg-4"><a id="055" href="#" title="Guía de Borja">Borja</a></li>
+                <li class="col-12 col-md-6 col-lg-4"><a id="055" href="http://localhost:8000/poblaciones/borja" title="Guía de Borja">Borja</a></li>
                 <li class="col-12 col-md-6 col-lg-4"><a id="056" href="#" title="Guía de Botorrita">Botorrita</a></li>
                 <li class="col-12 col-md-6 col-lg-4"><a id="057" href="#" title="Guía de Brea de Aragón">Brea de Aragón</a></li>
                 <li class="col-12 col-md-6 col-lg-4"><a id="058" href="#" title="Guía de Bubierca">Bubierca</a></li>

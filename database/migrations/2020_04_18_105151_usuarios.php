@@ -15,9 +15,9 @@ class Usuarios extends Migration
         Schema::create('usuarios', function ($table) {
             $table->id('id_usuario');
             $table->string('nombre');
-            $table->string('apeliidos');
-            $table->string('mail')->unique();
-            $table->string('nom_usuario')->unique();
+            $table->string('apellidos');
+            $table->string('mail');
+            $table->string('nom_usuario');
             $table->string('password');
             $table->boolean('colaborador');
             $table->boolean('empresa');

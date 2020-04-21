@@ -28,7 +28,7 @@
                     Abanto celebra fiestas en honor a su patrón San Estebán.</p>
                 <div class="clearfix"></div>
                 <div class="col-12 d-flex justify-content-between">
-                    <h1>Actividades en Acered</h1>
+                    <h1>Actividades en Abanto</h1>
                     <div>
                         <a href="http://localhost:8000/formActividad" class="btn btn-verde">Añadir actividad</a>
                     </div>

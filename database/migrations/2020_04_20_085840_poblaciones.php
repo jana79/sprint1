@@ -14,7 +14,7 @@ class Poblaciones extends Migration {
 
         Schema::create('poblaciones', function ($table) {
             $table->id('id_poblacion');
-            $table->string('nombre_poblacion')->unique();
+            $table->string('nombre_poblacion');
             $table->text('descripcion_poblacion');
             $table->string('imagen_poblacion');
         });

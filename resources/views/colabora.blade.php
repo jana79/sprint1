@@ -12,7 +12,7 @@
 <div class="container mt-5 mb-5 shadow col-md-8  pr-5 pb-5 mx-auto">					
     <h2 class="text-center py-5">Elige cómo quieres registrarte</h2>
     <div class="col-md-8 d-flex justify-content-between">
-        <div class="col-12">
+        <div class="col-12 col-md-6">
             <i class="fas fa-user col-2"></i> Usuario registrado
             <ul>
                 <li>Añadir comentarios</li>
@@ -21,7 +21,7 @@
             </ul>
             <a href="http://localhost:8000/colabora/registrado" class="btn btn-verde">Registrado</a>
         </div>
-        <div class="col-12">
+        <div class="col-12 col-md-6">
             <i class="fas fa-user col-2"></i> Usuario colaborador
             <ul>
                 <li>Añadir actividades</li>
