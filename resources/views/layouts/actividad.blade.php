@@ -9,17 +9,22 @@
         <article>
             <header>
                 <div class="item-img-wrap mb-4">
-                    <img src="{{portada}}" class="img-responsive portGral" alt="Abanto">
+                    <img src="{{portada}}" class="img-responsive portGral" alt="">
                 </div>
             </header>
             <div class="info">
-                <p>{{nom_usuario}}</p>
-                <p>{{descripcion_actividad}}</p>
+                <p class="pt-3">{{descripcion_actividad}}</p>
                 <div class="clearfix"></div>
-                <div class="col-12 d-flex justify-content-between">
-                    <h1>Actividades en Acered</h1>
+                <div class="col-12 d-flex justify-content-between pt-3">
+                    <h1>Imágenes</h1>
                     <div>
-                        <a href="http://localhost:8000/formActividad" class="btn btn-verde">Añadir actividad</a>
+                        <a href="http://localhost:8000/formImagen" class="btn btn-verde">Añadir imagen</a>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-between pt-3">
+                    <h1>Comentarios</h1>
+                    <div>
+                        <a href="http://localhost:8000/formComentario" class="btn btn-verde">Añadir comentario</a>
                     </div>
                 </div>
             </div>

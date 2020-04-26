@@ -11,6 +11,11 @@ class PruebaController extends Controller
         return view('inicio');
     }
     
+    public function homeAdmin()
+    {
+        return view('inicioAdmin');
+    }
+    
     public function naturaleza()
     {
         return view('naturaleza');
@@ -56,6 +61,11 @@ class PruebaController extends Controller
          return view('login');
     }
     
+    public function logout()
+    {
+         return view('logout');
+    }
+    
     public function registro()
     {
          return view('registro');
@@ -71,29 +81,49 @@ class PruebaController extends Controller
          return view('colaborador');
     }
     
+    public function usuarioColaborador()
+    {
+         return view('usuarioColaborador');
+    }
+    
+    public function inicioColaborador()
+    {
+         return view('inicioColaborador');
+    }
+    
     public function abanto()
     {
-         return view('abanto');
+         return view('poblaciones.abanto');
     }
     
     public function acered()
     {
-         return view('acered');
+         return view('poblaciones.acered');
     }
     
     public function agon()
     {
-         return view('agon');
+         return view('poblaciones.agon');
     }
     
     public function borja()
     {
-         return view('borja');
+         return view('poblaciones.borja');
     }
     
     public function formActividad()
     {
          return view('formActividad');
+    }
+    
+    public function formComentario()
+    {
+         return view('formComentario');
+    }
+    
+    public function formImagen()
+    {
+         return view('formImagen');
     }
     
     public function ecceHomo()
@@ -117,7 +147,126 @@ class PruebaController extends Controller
     
     public function museoVino()
     {
+         return view('museoVinoLimpio');
+    }
+    
+    public function museoVinoSinComentario()
+    {
+         return view('museoVinoSinComentario');
+    }
+    
+    public function museoVinoConComentario()
+    {
          return view('museoVino');
+    }
+    
+    public function museoVinoSinFoto()
+    {
+         return view('museoVinoSinFoto');
+    }
+    
+    public function musicaAntigua()
+    {
+         return view('musicaAntigua');
+    }
+    
+    public function zombi()
+    {
+         return view('zombi');
+    }
+    
+    public function gallocanta()
+    {
+         return view('gallocanta');
+    }
+    
+    public function moncayo()
+    {
+         return view('moncayo');
+    }
+    
+    public function cipotegato()
+    {
+         return view('cipotegato');
+    }
+    
+    public function mascara()
+    {
+         return view('mascara');
+    }
+    
+    public function castillo()
+    {
+         return view('mequinenza');
+    }
+    
+    public function bañales()
+    {
+         return view('bañales');
+    }
+    
+    public function editarActividad()
+    {
+         return view('formEditarActividad');
+    }
+    
+    public function editarActividadOK()
+    {
+         return view('editarActividadOK');
+    }
+    
+    public function editarComentario()
+    {
+         return view('formEditarComentario');
+    }
+    
+    public function editarComentarioOK()
+    {
+         return view('editarComentarioOK');
+    }
+    
+    public function eliminarComentario()
+    {
+         return view('formEliminarComentario');
+    }
+    
+    public function eliminarComentarioOK()
+    {
+         return view('eliminarComentarioOK');
+    }
+    
+    public function eliminarFoto()
+    {
+         return view('formEliminarFoto');
+    }
+    public function eliminarFotoOK()
+    {
+         return view('eliminarFotoOK');
+    }
+    
+    public function eliminarActividad()
+    {
+         return view('formEliminarActividad');
+    }
+    
+    public function eliminarActividadOK()
+    {
+         return view('eliminarActividadOK');
+    }
+    
+    public function listadoUsuarios()
+    {
+         return view('listadoUsuarios');
+    }
+    
+    public function bloqueado()
+    {
+         return view('bloqueado');
+    }
+    
+    public function bloqueadoUsuario()
+    {
+         return view('bloqueadoUsuario');
     }
     /**
      * Display a listing of the resource.

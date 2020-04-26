@@ -1,4 +1,4 @@
-@extends("layouts.plantilla")
+@extends("layouts.plantillaColaborador")
 
 
 @section("infoGeneral")
@@ -10,43 +10,50 @@
 
 <div class="row container mx-auto pt-3">
     <div class="col-12 col-md-4">
-        <h4 class="h4 pb-3 text-center verde">Ecce Homo</h4>
-        <img class="imgInicio" src="{{asset('images/ecceHomo.jpeg')}}" alt="EcceHomo">
-        <p class="pt-4">En agosto de 2012, una vecina de Borja, Cecilia Giménez, situó al 
-            municipio zaragozano de Borja en el mapa mundial gracias a su 
-            singular restauración del Ecce Homo, una pintura mural de principios 
-            del siglo XX obra del artista aragonés Elías García Martínez y 
-            ubicada en el Santuario de Misericordia.</p>
+        <h4 class="h4 pb-3 pt-3 text-center verde">Survival Zombi</h4>
+        <img class="imgInicio" src="{{asset('images/zombi.jpg')}}" 
+             alt="Survival Zombi">
+        <p class="pt-4">Las calles y rincones de Calatayud volverán a ser sede 
+            de una nueva edición del evento 'Survival Zombie', que en esta ocasión 
+            tendrá lugar el sábado 7 de noviembre de 2020. Desde las 21.00 a las 
+            4.00 del domingo tendrán lugar la lucha por la superviviencia para
+            acabar con los no muertos...</p>
         <div class="d-flex justify-content-center pb-3">
-            <a href="http://localhost:8000/poblaciones/borja/ecceHomo" class="btn btn-verde">
+            <a href="http://localhost:8000/poblaciones/calatayud/zombi" 
+               class="btn btn-verde">
                 Ver actividad
             </a>
         </div>
     </div>
     <div class="col-12 col-md-4">
-        <h4 class="h4 pb-3 text-center verde">Monasterio de Piedra</h4>
-        <img class="imgInicio" src="{{asset('images/monPiedra.jpg')}}" alt="Monasterio de Piedra">
-        <p class="pt-4">En la localidad de Nuévalos, a escasos kilómetros de Calatayud, 
-                    se emplaza el famoso Monasterio de Piedra, un antiguo cenobio 
-                    cisterciense ubicado en un hermoso parque natural repleto de 
-                    cascadas, bellísimos saltos de agua y grutas. Se trata de uno 
-                    de los parajes más bellos y visitados de Aragón.</p>
+        <h4 class="h4 pb-3 pt-3 text-center verde">Museo del vino</h4>  
+        <img class="imgInicio" src="{{asset('images/museo-vino-borja.jpg')}}" 
+             alt="Museo del vino">
+        <p class="pt-4">Borja es territorio de vinos. La tradición 
+            del cultivo de viñedos y el establecimiento de bodegas 
+            está recogida en diversos documentos y archivos que 
+            nos remontan al año 1.100. Estas tierras se conocen 
+            hoy como ‘El Imperio de la Garnacha’ y tienen su propio 
+            museo. Visítalo y disfruta de una experiencia única.</p> 
         <div class="d-flex justify-content-center pb-3">
-            <a href="http://localhost:8000/poblaciones/nuevalos/monPiedra" class="btn btn-verde">
+            <a href="http://localhost:8000/poblaciones/borja/museoVino" 
+               class="btn btn-verde">
                 Ver actividad
             </a>
         </div>
     </div>
     <div class="col-12 col-md-4">
-        <h4 class="h4 pb-3 text-center verde">La Contradanza</h4>  
-        <img class="imgInicio" src="{{asset('images/contradanza.jpg')}}" alt="EcceHomo">
-        <p class="pt-4">La Contradanza de Cetina es una expresión espectacular 
-            única, que se representa en Cetina la noche del 19 de Mayo en honor 
-            de San Juan Lorenzo. El personaje llamado “el diablo” es el que dirige 
-            el baile con sus palmadas y órdenes para dar comienzo a las mudanzas,
-            realizadas por los otros ocho "contradanceros".</p>
-        <div class="d-flex justify-content-center">
-            <a href="http://localhost:8000/poblaciones/cetina/contradanza" class="btn btn-verde">
+        <h4 class="h4 pb-3 pt-3 text-center verde">Música Antigua</h4>  
+        <img class="imgInicio" src="{{asset('images/musicaAntigua.jpg')}}" 
+             alt="Festival de Música Antigua">
+        <p class="pt-4">Iniciativa de la Institución Fernando el Católico y la 
+            Diputación Provincial de Zaragoza, cada verano Daroca acoge una nueva
+            edición del Festival de Música Antigua, una propuesta pionera y que 
+            ha creado un modelo a seguir para otras muchas iniciativas que aunan
+            cultura, ocio y turismo en el verano de la comunidad.</p>
+        <div class="d-flex justify-content-center pb-3">
+            <a href="http://localhost:8000/poblaciones/daroca/musicaAntigua" 
+               class="btn btn-verde">
                 Ver actividad
             </a>
         </div>

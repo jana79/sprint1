@@ -29,10 +29,6 @@ h1 {
     color:#006C11;
 }
 
-p{
-    text-align: center;
-}
-
 /* Custom page CSS
  * Not required for template or sticky footer method.
  * -------------------------------------------------- */
@@ -107,7 +103,7 @@ body > .container {
 }
 
 .portGral{
-    width: 50%;
+    width: 65%;
     margin: auto;
     display: block;
     
@@ -116,6 +112,10 @@ body > .container {
 .imgInicio{
     width: 313px;
     height: 200px;
+}
+
+.imagenes{
+    width: 45%;
 }
 
 .imgAct{

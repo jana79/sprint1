@@ -16,6 +16,9 @@
         
         <!-- Styles -->
         <link rel="stylesheet" href="{{asset('/css-cp/custom.css')}}">
+        
+        <!-- ReCaptcha -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     </head>
     <body>
@@ -68,15 +71,15 @@
             <div class="row h-100 m-0 overlay">
                 <div class="col-12 my-auto">
                     <h3 class="text-center text-light">¡Encuentra planes interesantes!</h3>
-                    <form class="form-inline  justify-content-center" action="#">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                        <button class=" btn btn-verde" type="submit">Search</button>
+                    <form class="form-inline  justify-content-center" action="http://localhost:8000/poblaciones/borja">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Borja">
+                        <button class=" btn btn-verde" type="submit">Buscar</button>
                     </form>
                 </div>     				
             </div>
         </section>
         <!-- Contenido -->
-        <section class="container mx-auto">
+        <section class="container mx-auto text-left">
             @yield("infoGeneral")
 
         </section>
@@ -95,9 +98,6 @@
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        
-        <!--js propio-->    
-        <script src="{{asset('/js-cp/custom.js')}}"></script>
     </body>
 </html>
 

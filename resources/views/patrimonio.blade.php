@@ -10,43 +10,53 @@
 
 <div class="row container mx-auto pt-3">
     <div class="col-12 col-md-4">
-        <h4 class="h4 pb-3 text-center verde">Ecce Homo</h4>
-        <img class="imgInicio" src="{{asset('images/ecceHomo.jpeg')}}" alt="EcceHomo">
-        <p class="pt-4">En agosto de 2012, una vecina de Borja, Cecilia Giménez, situó al 
-            municipio zaragozano de Borja en el mapa mundial gracias a su 
-            singular restauración del Ecce Homo, una pintura mural de principios 
-            del siglo XX obra del artista aragonés Elías García Martínez y 
-            ubicada en el Santuario de Misericordia.</p>
+        <h4 class="h4 pb-3 text-center verde">Los Bañales de Uncastillo</h4>
+        <img class="imgInicio" src="{{asset('images/bañales.jpg')}}" 
+             alt="Los Bañales de Uncastillo">
+        <p class="pt-4">Los Bañales es un yacimiento arqueológico
+        donde se han hallado restos de una ciudad romana. Visita este magnífico 
+        yacimiento con foro, termas, espacios domésticos y un sensacional 
+        acueducto de abastecimiento de agua.El yacimiento romano de Los Bañales 
+        se encuentra en el término municipal de Uncastillo.</p>
         <div class="d-flex justify-content-center pb-3">
-            <a href="http://localhost:8000/poblaciones/borja/ecceHomo" class="btn btn-verde">
+            <a href="http://localhost:8000/poblaciones/uncastillo/bañales" 
+               class="btn btn-verde">
                 Ver actividad
             </a>
         </div>
     </div>
     <div class="col-12 col-md-4">
-        <h4 class="h4 pb-3 text-center verde">Monasterio de Piedra</h4>
-        <img class="imgInicio" src="{{asset('images/monPiedra.jpg')}}" alt="Monasterio de Piedra">
-        <p class="pt-4">En la localidad de Nuévalos, a escasos kilómetros de Calatayud, 
-                    se emplaza el famoso Monasterio de Piedra, un antiguo cenobio 
-                    cisterciense ubicado en un hermoso parque natural repleto de 
-                    cascadas, bellísimos saltos de agua y grutas. Se trata de uno 
-                    de los parajes más bellos y visitados de Aragón.</p>
+        <h4 class="h4 pb-3 text-center verde">Colegiata de Santa María</h4>
+        <img class="imgInicio" src="{{asset('images/colegiataBorja.jpg')}}" 
+             alt="Colegiata de Santa María">
+        <p class="pt-4">Entre los edificios históricos de Borja 
+            sobresale la colegiata de Santa María. Su variedad 
+            de estilos es resultado de una dilatada historia y 
+            de las distintas reformas y ampliaciones a las que 
+            ha sido sometida a lo largo de los siglos. Su variedad de 
+            estilos es resultado de una dilatada historia a través de
+            los siglos.</p>
+
+
         <div class="d-flex justify-content-center pb-3">
-            <a href="http://localhost:8000/poblaciones/nuevalos/monPiedra" class="btn btn-verde">
+            <a href="http://localhost:8000/poblaciones/borja/colegiataBorja" 
+               class="btn btn-verde">
                 Ver actividad
             </a>
         </div>
     </div>
     <div class="col-12 col-md-4">
-        <h4 class="h4 pb-3 text-center verde">La Contradanza</h4>  
-        <img class="imgInicio" src="{{asset('images/contradanza.jpg')}}" alt="EcceHomo">
-        <p class="pt-4">La Contradanza de Cetina es una expresión espectacular 
-            única, que se representa en Cetina la noche del 19 de Mayo en honor 
-            de San Juan Lorenzo. El personaje llamado “el diablo” es el que dirige 
-            el baile con sus palmadas y órdenes para dar comienzo a las mudanzas,
-            realizadas por los otros ocho "contradanceros".</p>
+        <h4 class="h4 pb-3 text-center verde">El castillo de Mequinenza</h4>  
+        <img class="imgInicio" src="{{asset('images/mequinenza.jpg')}}" 
+             alt="Castillo de Mequinenza">
+        <p class="pt-4">El Castillo de Mequinenza y sus aledaños son propiedad de 
+            la Fundación Endesa. Esta situado en lo alto de una colina, a unos 185 
+            metros sobre el nivel del mar, enclave estratégico y único que ofrece 
+            una espectacular panorámica de las confluencias de los ríos Segre, Cinca 
+            y Ebro, más conocido como “Aiguabarreig”</p>
         <div class="d-flex justify-content-center">
-            <a href="http://localhost:8000/poblaciones/cetina/contradanza" class="btn btn-verde">
+            <a href="http://localhost:8000/poblaciones/mequinenza/castillo" 
+               class="btn btn-verde">
                 Ver actividad
             </a>
         </div>

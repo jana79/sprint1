@@ -3,7 +3,7 @@
 
 @section("infoGeneral")
 <h1>Bienvenido a la sección Poblaciones</h1>
-<p>Aquí encontrarás las poblaciones de la provincia de Zaragoza ordenadas alfabéticamente.
+<p class="text-center">Aquí encontrarás las poblaciones de la provincia de Zaragoza ordenadas alfabéticamente.
     Haz clic sobre el nombre para ver la población y las actividades que ofrece.</p>
 
 <div class="container mt-5 mb-5 shadow col-md-12 p-5">
