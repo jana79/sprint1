@@ -8,7 +8,7 @@
 <div class="container mt-5 mb-5 shadow col-md-6 pl-5 pr-5">					
     <h2 class="text-center py-5">Formulario de contacto</h2>
     <div>
-        <form id="formularioContacto" method="post" class="pb-5" action="">
+        <form id="formularioContacto" method="get" class="pb-5" action="http://localhost:8000/respuestaContacto">
             <div class="form-group">
                 <label for="nombre">Nombre *</label>
                 <input type="text" class="form-control" id="nombre" 

@@ -7,50 +7,94 @@
             <file>file:/var/www/laravel/sprint1/resources/views/naturaleza.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/bloqueado.blade.php</file>
             <file>file:/var/www/laravel/sprint1/routes/web.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/bañales.blade.php</file>
             <file>file:/var/www/laravel/sprint1/app/Http/Controllers/PruebaController.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/formEliminarComentario.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/cipotegato.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/registro.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/museoVinoUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/app/Http/Controllers/AdminController.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/poblacionesUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/tradicionUsuario.blade.php</file>
             <file>file:/var/www/laravel/sprint1/public/css-cp/custom.css</file>
             <file>file:/var/www/laravel/sprint1/resources/views/formImagen.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/formEditarComentario.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/museoVinoSinComentario.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/formEliminarActividad.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/formEliminarFoto.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/patrimonioUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/moncayo.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/layouts/plantillaColaborador.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/bloqueadoUsuario.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/inicioRegistrado.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/formActividad.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/ocio.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/layouts/plantillaColInicio.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/musicaAntiguaUsuario.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/editarComentarioOK.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/poblaciones.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/colabora.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/colaborador.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/eliminarComentarioOK.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/inicioAdminOK.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/museoVinoSinFoto.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/formComentario.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/museoVinoLimpio.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/zombiUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/colegiata.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/inicioBloqueado.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/logout.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/inicioCol.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/eliminarActividadOK.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/poblaciones/borjaSinMuseo.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/contacta.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/layouts/plantilla.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/usuarioColaborador.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/listadoUsuariosBloqueado.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/respuestaContacto.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/inicioColOK.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/loginBloqueado.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/actividadesUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/layouts/plantillaAdminInicio.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/layouts/plantillaBloqueado.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/cipotegatoUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/moncayoUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/ocioUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/museoVino.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/museoVinoComentarioEditado.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/tradicion.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/inicioColaborador.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/museoVinoConFoto.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/layouts/plantillaAdmin.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/monPiedra.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/naturalezaUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/registrado.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/bañales.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/poblaciones/borjaColaborador.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/gallocantaUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/poblaciones/agonColaborador.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/formEliminarComentario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/cipotegato.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/registro.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/app/Http/Controllers/UsuarioController.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/museoVinoSinComentario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/loginAdmin.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/formEliminarActividad.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/formEliminarFoto.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/bloqueadoUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/app/Http/Controllers/ColaboradorController.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/ecceHomoUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/formActividad.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/colegiataUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/bañalesUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/ocio.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/respuestaContactoUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/mascaraUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/colabora.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/contactaUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/mequinenzaUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/eliminarComentarioOK.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/contradanzaUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/formComentario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/poblaciones/abantoColaborador.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/colaboraUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/poblaciones/aceredColaborador.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/layouts/plantilla.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/logoutAdmin.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/editarActividadOK.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/formEditarActividad.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/inicioAdmin.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/login.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/museoVino.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/listadoUsuarios.blade.php</file>
             <file>file:/var/www/laravel/sprint1/public/images/imgBorja.jpg</file>
             <file>file:/var/www/laravel/sprint1/resources/views/eliminarFotoOK.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/inicioColaborador.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/layouts/plantillaAdmin.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/monPiedra.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/monPiedraUsuario.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/museoVinoComentario.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/poblaciones/borja.blade.php</file>
             <file>file:/var/www/laravel/sprint1/resources/views/inicio.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/registrado.blade.php</file>
         </group>
     </open-files>
 </project-private>

@@ -33,7 +33,7 @@
                 <a href="http://localhost:8000/registro" class="btn btn-verde mr-4">
                     Registro
                 </a>
-                <a href="http://localhost:8000/login" class="btn btn-verde mr-2">
+                <a href="http://localhost:8000/colaborador/bloqueado/login" class="btn btn-verde mr-2">
                     Login
                 </a>
             </div>

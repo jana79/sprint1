@@ -1,4 +1,4 @@
-@extends("layouts.plantilla")
+@extends("layouts.plantillaColaborador")
 
 
 @section("infoGeneral")
@@ -9,11 +9,11 @@
 <div class="container mt-5 mb-5 shadow col-md-6 pl-5 pr-5">					
     <h2 class="text-center py-5">Añadir nueva actividad</h2>
     <div>
-        <form id="formularioActividad" method="get" class="pb-5" action="http://localhost:8000/poblaciones/borja/museoVino">
+        <form id="formularioActividad" method="get" class="pb-5" action="http://localhost:8000/colaborador/poblaciones/borjaUsuario/museoVino">
             <div class="form-group">
                 <label for="titulo">Título *</label>
                 <input type="text" class="form-control" id="titulo" name="titulo" 
-                       placeholder="Escriba el título de la actividad">
+                       placeholder="Museo del vino D.O. Campo de Borja">
             </div>
             <div class="form-group">
                 <label for="portada">Imagen de portada *</label>
@@ -26,7 +26,7 @@
                     <option>Abanto</option>
                     <option>Acered</option>
                     <option>Agón</option>
-                    <option>Borja</option>
+                    <option selected>Borja</option>
                     <option>Calatayud</option>
                     <option>Cetina</option>
                     <option>Daroca</option>
@@ -38,14 +38,21 @@
                 <select id="categoria" class="form-control">
                     <option></option>
                     <option>Naturaleza</option>
-                    <option>Ocio</option>
+                    <option selected>Ocio</option>
                     <option>Patrimonio</option>
                     <option>Tradición</option>
                 </select>
             </div>
             <div class="form-group">
                 <label for="descripcion">Descripción de la actividad *</label>
-                <textarea class="form-control" id="descripcion" name="descripcion"></textarea>
+                <textarea class="form-control" id="descripcion" name="descripcion">Este museo, en activo desde 1.994, fue uno de los primeros en este segmento. Gracias a su labor expositiva 
+                    y divulgativa, se ha convertido en una herramienta de promoción 
+                    y difusión importantísima, a través de la cual, miles de 
+                    visitantes y turistas conocen y saben de las excelencias de 
+                    los vinos del Campo de Borja y sus bodegas.De la misma forma, 
+                    pone en valor los diferentes atractivos y recursos turísticos 
+                    la zona, complementando así la experiencia global de la visita a Borja.
+                </textarea>
             </div>
             <div class="form-group">
                 <div>

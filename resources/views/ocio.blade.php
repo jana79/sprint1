@@ -1,4 +1,4 @@
-@extends("layouts.plantillaColaborador")
+@extends("layouts.plantilla")
 
 
 @section("infoGeneral")

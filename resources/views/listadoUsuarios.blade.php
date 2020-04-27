@@ -32,8 +32,8 @@
                     conocen y saben de las excelencias de los vinos del 
                     Campo de Borja y sus bodegas.</td>
                 <td> 
-                    <a href="http://localhost:8000/bloqueado" 
-                       class="btn btn-danger">Bloquear</a>
+                    <a href="http://localhost:8000/admin/bloqueado" 
+                       class="btn btn-verde">Bloquear</a>
                 </td>
             </tr>
             <tr>
@@ -53,8 +53,8 @@
                     murallas nosotros... ¡limpiaremos la ciudad calle por 
                     calle!.</td>
                 <td> 
-                    <a href="http://localhost:8000/bloqueado" 
-                       class="btn btn-verde">Bloquear</a>
+                    <a href="http://localhost:8000/admin/bloqueado" 
+                       class="btn btn-verde disabled">Bloquear</a>
                 </td>
             </tr>
             <tr>
@@ -69,8 +69,8 @@
                 suerte con el tiempo, pero no tanto con la cámara de fotos.
                 Volveremos para poder captar toda esa belleza.</td>
                 <td>
-                    <a href="http://localhost:8000/bloqueado" 
-                       class="btn btn-verde">Bloquear</a></td>
+                    <a href="http://localhost:8000/admin/bloqueado" 
+                       class="btn btn-verde disabled">Bloquear</a></td>
             </tr>
         </tbody>
     </table>

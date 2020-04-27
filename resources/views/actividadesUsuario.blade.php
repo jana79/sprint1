@@ -8,14 +8,14 @@
 <div class="row container mx-auto pt-4">
     <div class="col-12 col-md-6">  
         <h3 class="text-center verde py-3">Naturaleza</h3>
-        <a href="http://localhost:8000/naturaleza"> 
+        <a href="http://localhost:8000/colaborador/naturaleza"> 
             <img class="imgAct img-fluid" src="{{asset('../images/cascada_1.jpg')}}" 
                  alt="Naturaleza">
         </a>      
     </div>
     <div class="col-12 col-md-6"> 
        <h3 class="text-center verde py-3">Patrimonio</h3>
-        <a href="http://localhost:8000/patrimonio"> 
+        <a href="http://localhost:8000/colaborador/patrimonio"> 
             <img class="imgAct img-fluid" src="{{asset('../images/colegiataBorja.jpg')}}" 
                  alt="Patrimonio">
         </a>      
@@ -25,14 +25,14 @@
 <div class="row container mx-auto pt-4">
     <div class="col-12 col-md-6">  
         <h3 class="text-center verde py-3">Ocio</h3>
-        <a href="http://localhost:8000/ocio"> 
+        <a href="http://localhost:8000/colaborador/ocio"> 
             <img class="imgAct img-fluid" src="{{asset('../images/museo-vino-borja.jpg')}}" 
                  alt="Ocio">
         </a>        
     </div>
     <div class="col-12 col-md-6"> 
         <h3 class="text-center verde py-3">Tradición</h3>
-        <a href="http://localhost:8000/tradicion"> 
+        <a href="http://localhost:8000/colaborador/tradicion"> 
             <img class="imgAct img-fluid" src="{{asset('../images/contradanza.jpg')}}" 
                  alt="Tradición">
         </a>      
@@ -42,7 +42,7 @@
 
 <div class="col-12 d-flex justify-content-center pt-5">
     <div>
-        <a href="http://localhost:8000/formActividad" 
+        <a href="http://localhost:8000/colaborador/formActividad" 
            class="btn btn-verde">Añadir actividad</a>
     </div>
 </div>

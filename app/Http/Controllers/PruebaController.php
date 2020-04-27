@@ -8,6 +8,7 @@ class PruebaController extends Controller
 {
     public function home()
     {
+        // Vista de página pral
         return view('inicio');
     }
     
@@ -81,9 +82,9 @@ class PruebaController extends Controller
          return view('colaborador');
     }
     
-    public function usuarioColaborador()
+    public function registroOK()
     {
-         return view('usuarioColaborador');
+         return view('registroOK');
     }
     
     public function inicioColaborador()
@@ -267,6 +268,11 @@ class PruebaController extends Controller
     public function bloqueadoUsuario()
     {
          return view('bloqueadoUsuario');
+    }
+    
+    public function respuestaContacto()
+    {
+         return view('respuestaContacto');
     }
     /**
      * Display a listing of the resource.

@@ -31,9 +31,7 @@
                 <div class="clearfix"></div>
                 <div class="col-12 d-flex justify-content-between pt-4">
                     <h1>Actividades en Abanto</h1>
-                    <div>
-                        <a href="http://localhost:8000/formActividad" class="btn btn-verde">Añadir</a>
-                    </div>
+                    
                 </div>
             </div>
         </article>

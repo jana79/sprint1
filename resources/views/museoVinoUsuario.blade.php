@@ -1,4 +1,4 @@
-@extends("layouts.plantilla")
+@extends("layouts.plantillaColaborador")
 
 
 @section("infoGeneral")
@@ -58,9 +58,9 @@
                     <li>mail: museovino@docampodeborja.com</li>
                 </ul>
                 <div>
-                    <a href="http://localhost:8000/editarActividad" 
+                    <a href="http://localhost:8000/colaborador/editarActividad" 
                        class="btn btn-verde">Editar</a>
-                    <a href="http://localhost:8000/eliminarActividad" 
+                    <a href="http://localhost:8000/colaborador/eliminarActividad" 
                        class="btn btn-verde">Eliminar</a>
                 </div>
 
@@ -68,25 +68,25 @@
                 <div class="col-12 d-flex justify-content-between pt-3">
                     <h1>Imágenes</h1>
                     <div>
-                        <a href="http://localhost:8000/formImagen" 
+                        <a href="http://localhost:8000/colaborador/formImagen" 
                            class="btn btn-verde">Añadir</a>
                     </div>
                 </div>
-
-
-
                 <div class="col-12 d-flex justify-content-between pt-5">
                     <h1>Comentarios</h1>
                     <div>
-                        <a href="http://localhost:8000/formComentario" 
+                        <a href="http://localhost:8000/colaborador/formComentario" 
                            class="btn btn-verde">Añadir</a>
                     </div>
                 </div>
-
             </div>
+        </article>
     </div>
-</article>
+    <div class="col-lg-12 d-flex justify-content-end">
+        <a href="http://localhost:8000/colaborador/poblaciones/borjaUsuario/conMuseo" 
+           class="btn btn-verde">Volver a población</a>
+    </div>
 </div>
-</div>
+
 @endsection
 

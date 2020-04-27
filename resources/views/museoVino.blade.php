@@ -57,53 +57,10 @@
                     <li>web:<a href="http://docampodeborja.com/">www.docampodeborja.com</a></li>
                     <li>mail: museovino@docampodeborja.com</li>
                 </ul>
-
-                <div class="clearfix"></div>
-                <div class="col-12 d-flex justify-content-between pt-3">
-                    <h1>Imágenes</h1>
-                    <div>
-                        <a href="http://localhost:8000/formImagen" 
-                           class="btn btn-verde">Añadir</a>
-                    </div>
-                </div>
-                <div class="row container mx-auto pt-3">
-                    
-                    
-                </div>
             </div>
-
-
-            <div class="col-12 d-flex justify-content-between pt-5">
-                <h1>Comentarios</h1>
-                <div>
-                    <a href="http://localhost:8000/formComentario" 
-                       class="btn btn-verde">Añadir</a>
-                </div>
-            </div>
-            <div class="row container mx-auto">
-                <div class="col-12">
-                    <i class="fas fa-user verde"></i> pegilba
-                    &nbsp;&nbsp; mayo 2020 
-                </div>
-                <p>Hicimos la visita en pareja en verano de 2018. La verdad es que
-                    el museo está muy bien cuidado. Tienen muchos paneles informativos 
-                    y la guía que nos lo mostró fue muy simpática. La duración fue de
-                    casi dos horas y nos pareció una experiencia muy enriquecedora
-                    y recomendable. Además tienen una tienda con productos de la tierra
-                    y organizan catas y otras actividades. Para no perdérselo.</p>
-            </div>
-            <div class="d-flex justify-content-end">
-                <div>
-                    <a href="http://localhost:8000/formEditarComentario" 
-                       class="btn btn-verde">Editar</a>
-                    <a href="http://localhost:8000/formEliminarComentario" 
-                       class="btn btn-verde">Eliminar</a>
-                </div>
-            </div>
+        </article>
     </div>
 </div>
-</article>
-</div>
-</div>
+
 @endsection
 

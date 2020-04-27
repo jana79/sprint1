@@ -1,4 +1,4 @@
-@extends("layouts.plantilla")
+@extends("layouts.plantillaColaborador")
 
 
 @section("infoGeneral")
@@ -9,7 +9,7 @@
 <div class="container mt-5 mb-5 shadow col-md-6 pl-5 pr-5">					
     <h2 class="text-center py-5">Añadir imagen</h2>
     <div>
-        <form id="formularioActividad" method="get" class="pb-5" action="http://localhost:8000/poblaciones/borja/museoVino/sinComentario">
+        <form id="formularioActividad" method="get" class="pb-5" action="http://localhost:8000/colaborador/poblaciones/borjaUsuario/museoVinoImagen">
             <div class="form-group">
                 <input type="hidden" class="form-control" id="nom_usuario" name="nom_usuario" value="">
             </div>

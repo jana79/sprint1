@@ -9,7 +9,7 @@
         correctamente.
         ¡¡Hasta pronto!!.</h2>
     <div class="col-sm-9 offset-sm-4 pt-3 pb-5">
-        <a href="http://localhost:8000" class="btn btn-verde mr-2">
+        <a href="http://localhost:8000/colaborador" class="btn btn-verde mr-2">
             Volver
         </a>         
     </div>	  

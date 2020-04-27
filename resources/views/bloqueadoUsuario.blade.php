@@ -9,7 +9,7 @@
     Puede ponerse en contacto con el administrador para resolver sus dudas.</h2>
     <div class="col-sm-9 offset-sm-4 pt-3 pb-5">
         <a href="http://localhost:8000/contacta" 
-           class="btn btn-verde mr-2">
+           class="btn btn-verde">
             Contacto
         </a>         
     </div>	  

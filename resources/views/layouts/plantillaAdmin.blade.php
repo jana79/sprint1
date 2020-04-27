@@ -26,12 +26,14 @@
         <div class="cabecera w-100 p-3 d-flex justify-content-between">
             @yield("cabecera")
 
-            <a href="http://localhost:8000">
-                <img class="logotipo ml-2" src="{{asset('images/logo-zarural.png')}}">
+            <a href="http://localhost:8000/admin">
+                <img class="logotipo ml-2" 
+                     src="{{asset('images/logo-zarural.png')}}">
             </a>
             <div>
                 <i class="fas fa-user verde"></i> admin
-                <a href="http://localhost:8000/logout" class="btn btn-verde ml-3 mr-3">
+                <a href="http://localhost:8000/admin/logout" 
+                   class="btn btn-verde ml-3 mr-3">
                     Logout
                 </a>
             </div>

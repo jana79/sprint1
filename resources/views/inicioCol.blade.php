@@ -1,4 +1,4 @@
-@extends("layouts.plantilla")
+@extends("layouts.plantillaColInicio")
 
 
 @section("infoGeneral")
@@ -22,7 +22,7 @@
             del siglo XX obra del artista aragonés Elías García Martínez y 
             ubicada en el Santuario de Misericordia.</p>
         <div class="d-flex justify-content-center pb-3">
-            <a href="http://localhost:8000/poblaciones/borja/ecceHomo" class="btn btn-verde">
+            <a href="http://localhost:8000/colaborador/poblaciones/borjaUsuario/ecceHomo" class="btn btn-verde">
                 Ver actividad
             </a>
         </div>
@@ -31,12 +31,12 @@
         <h4 class="h4 pb-3 text-center verde">Monasterio de Piedra</h4>
         <img class="imgInicio" src="{{asset('images/monPiedra.jpg')}}" alt="Monasterio de Piedra">
         <p class="pt-4">En la localidad de Nuévalos, a escasos kilómetros de Calatayud, 
-                    se emplaza el famoso Monasterio de Piedra, un antiguo cenobio 
-                    cisterciense ubicado en un hermoso parque natural repleto de 
-                    cascadas, bellísimos saltos de agua y grutas. Se trata de uno 
-                    de los parajes más bellos y visitados de Aragón.</p>
+            se emplaza el famoso Monasterio de Piedra, un antiguo cenobio 
+            cisterciense ubicado en un hermoso parque natural repleto de 
+            cascadas, bellísimos saltos de agua y grutas. Se trata de uno 
+            de los parajes más bellos y visitados de Aragón.</p>
         <div class="d-flex justify-content-center pb-3">
-            <a href="http://localhost:8000/poblaciones/nuevalos/monPiedra" class="btn btn-verde">
+            <a href="http://localhost:8000/colaborador/poblaciones/nuevalos/monPiedra" class="btn btn-verde">
                 Ver actividad
             </a>
         </div>
@@ -50,11 +50,11 @@
             el baile con sus palmadas y órdenes para dar comienzo a las mudanzas,
             realizadas por los otros ocho "contradanceros".</p>
         <div class="d-flex justify-content-center">
-            <a href="http://localhost:8000/poblaciones/cetina/contradanza" class="btn btn-verde">
+            <a href="http://localhost:8000/colaborador/poblaciones/cetina/contradanza" class="btn btn-verde">
                 Ver actividad
             </a>
         </div>
-    </div>
+    </div>    
 </div>
 
 @endsection

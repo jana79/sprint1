@@ -1,4 +1,4 @@
-@extends("layouts.plantilla")
+@extends("layouts.plantillaColaborador")
 
 
 @section("infoGeneral")
@@ -9,18 +9,20 @@
 <div class="container mt-5 mb-5 shadow col-md-6 pl-5 pr-5">					
     <h2 class="text-center py-5">Añadir comentario</h2>
     <div>
-        <form id="formularioActividad" method="get" class="pb-5" action="http://localhost:8000/poblaciones/borja/museoVino/conComentario">
+        <form id="formularioActividad" method="get" class="pb-5" 
+              action="http://localhost:8000/colaborador/poblaciones/borjaUsuario/museoVinoComentario">
             <div class="form-group">
                 <input type="hidden" class="form-control" id="nom_usuario" name="nom_usuario">
             </div>
             <div class="form-group">
                 <label for="comentario">Comentario *</label>
-                <textarea class="form-control" id="comentario" name="comentario">
-                    Hicimos la visita en pareja en verano de 2018. La verdad es que el museo está muy 
-bien cuidado. Tienen muchos paneles informativos y la guía que nos lo mostró fue 
-muy simpática. La duración fue de casi dos horas y nos pareció una experiencia muy 
-enriquecedora y recomendable. Además tienen una tienda con productos de la tierra
-                    y organizan catas y otras actividades. Para no perdérselo.
+                <textarea class="form-control" 
+                          id="comentario" 
+                          name="comentario">Hicimos la visita en pareja en verano de 2017. La verdad es que el museo está muy bien cuidado. 
+                    Tienen muchos paneles informativos y la guía que nos lo mostró fue muy simpática.
+                    La duración fue de casi dos horas y nos pareció una experiencia muy enriquecedora y recomendable. 
+                    Además tienen una tienda con productos de la tierra y organizan catas y otras actividades. 
+                    Para no perdérselo.
                 </textarea>
             </div>
             <div class="form-group">

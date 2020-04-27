@@ -1,4 +1,4 @@
-@extends("layouts.plantilla")
+@extends("layouts.plantillaColaborador")
 
 
 @section("infoGeneral")
@@ -8,7 +8,7 @@
 <div class="container mt-5 mb-5 shadow col-md-6 pl-5 pr-5">					
     <h2 class="text-center py-5">Editar actividad</h2>
     <div>
-        <form id="formularioEditarActividad" method="get" class="pb-5" action="http://localhost:8000/editarActividadOK">
+        <form id="formularioEditarActividad" method="get" class="pb-5" action="http://localhost:8000/colaborador/editarActividadOK">
             <div class="form-group">
                 <label for="titulo">Título *</label>
                 <input type="text" class="form-control" id="titulo" name="titulo" 

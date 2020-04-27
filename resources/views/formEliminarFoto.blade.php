@@ -1,4 +1,4 @@
-@extends("layouts.plantilla")
+@extends("layouts.plantillaColaborador")
 
 
 @section("infoGeneral")
@@ -9,12 +9,12 @@
     <div class="col-6 d-flex justify-content-between">
         <div class="col-12">
             
-            <a href="http://localhost:8000/eliminarFotoOK" 
+            <a href="http://localhost:8000/colaborador/eliminarFotoOK" 
                class="btn btn-verde ml-5">Eliminar</a>
         </div>
         <div class="col-12">
             
-                <a href="http://localhost:8000/poblaciones/borja/museoVino/sinComentario" 
+                <a href="http://localhost:8000/colaborador/poblaciones/borjaUsuario/museoVinoImagen" 
                    class="btn btn-verde ml-5">Cancelar</a>
             </div>
         </div>        

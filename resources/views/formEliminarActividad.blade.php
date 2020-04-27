@@ -9,12 +9,12 @@
     <div class="col-6 d-flex justify-content-between">
         <div class="col-12">
             
-            <a href="http://localhost:8000/eliminarActividadOK" 
+            <a href="http://localhost:8000/colaborador/eliminarActividadOK" 
                class="btn btn-verde ml-5">Eliminar</a>
         </div>
         <div class="col-12">
             
-                <a href="http://localhost:8000/poblaciones/borja/museoVino" 
+                <a href="http://localhost:8000/colaborador/poblaciones/borjaUsuario/museoVino" 
                    class="btn btn-verde ml-5">Cancelar</a>
             </div>
         </div>        

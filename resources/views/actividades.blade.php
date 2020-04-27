@@ -39,11 +39,5 @@
     </div>
 </div>
 
-<div class="col-12 d-flex justify-content-center pt-5">
-    <div>
-        <a href="http://localhost:8000/formActividad" 
-           class="btn btn-verde">Añadir actividad</a>
-    </div>
-</div>
 
 @endsection

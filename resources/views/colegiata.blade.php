@@ -45,21 +45,6 @@
                     de la sillería gótica aragonesa que tiene en el coro de la 
                     Seo sus orígenes, el órgano, el retablo mayor, la cripta y 
                     las capillas.</p>                    
-                <div class="clearfix"></div>
-                <div class="col-12 d-flex justify-content-between pt-3">
-                    <h1>Imágenes</h1>
-                    <div>
-                        <a href="http://localhost:8000/formImagen" 
-                           class="btn btn-verde">Añadir</a>
-                    </div>
-                </div>
-                <div class="col-12 d-flex justify-content-between pt-3">
-                    <h1>Comentarios</h1>
-                    <div>
-                        <a href="http://localhost:8000/formComentario" 
-                           class="btn btn-verde">Añadir</a>
-                    </div>
-                </div>
             </div>
         </article>
     </div>

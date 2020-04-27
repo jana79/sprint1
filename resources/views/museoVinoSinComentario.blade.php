@@ -1,4 +1,4 @@
-@extends("layouts.plantilla")
+@extends("layouts.plantillaColaborador")
 
 
 @section("infoGeneral")
@@ -89,7 +89,7 @@
                        class="btn btn-verde">Añadir</a>
                 </div>
             </div>
-
+        </article>
     </div>
 </div>
 </article>

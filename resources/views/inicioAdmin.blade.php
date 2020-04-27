@@ -1,4 +1,4 @@
-@extends("layouts.plantillaAdmin")
+@extends("layouts.plantillaAdminInicio")
 
 
 @section("infoGeneral")
@@ -31,10 +31,10 @@
         <h4 class="h4 pb-3 text-center verde">Monasterio de Piedra</h4>
         <img class="imgInicio" src="{{asset('images/monPiedra.jpg')}}" alt="Monasterio de Piedra">
         <p class="pt-4">En la localidad de Nuévalos, a escasos kilómetros de Calatayud, 
-                    se emplaza el famoso Monasterio de Piedra, un antiguo cenobio 
-                    cisterciense ubicado en un hermoso parque natural repleto de 
-                    cascadas, bellísimos saltos de agua y grutas. Se trata de uno 
-                    de los parajes más bellos y visitados de Aragón.</p>
+            se emplaza el famoso Monasterio de Piedra, un antiguo cenobio 
+            cisterciense ubicado en un hermoso parque natural repleto de 
+            cascadas, bellísimos saltos de agua y grutas. Se trata de uno 
+            de los parajes más bellos y visitados de Aragón.</p>
         <div class="d-flex justify-content-center pb-3">
             <a href="http://localhost:8000/poblaciones/nuevalos/monPiedra" class="btn btn-verde">
                 Ver actividad
@@ -54,14 +54,7 @@
                 Ver actividad
             </a>
         </div>
-    </div>
-    <div class="row container mx-auto pt-3 d-flex justify-content-center">
-        <a href="http://localhost:8000/listadoUsuarios" 
-               class="btn btn-verde ml-3 mr-3">
-                    Ver listado de usuarios
-                </a>
-    </div>
-    
+    </div>    
 </div>
 
 @endsection

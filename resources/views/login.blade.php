@@ -9,7 +9,7 @@
 <div class="container mt-5 mb-5 shadow col-md-6 pl-5 pr-5">					
     <h2 class="text-center py-3">Inicio de sesión</h2>
     <div>
-        <form id="formularioLogin" method="get" class="form-horizontal pb-5" action="http://localhost:8000/bloqueadoUsuario">
+        <form id="formularioLogin" method="get" class="form-horizontal pb-5" action="http://localhost:8000/colaborador/inicio">
             <div class="form-group row">
                 <label class="col-sm-4 col-form-label" for="usuario">Usuario *</label>
                 <div class="col-sm-6">
