@@ -23,6 +23,7 @@
                     La duración fue de casi dos horas y nos pareció una experiencia muy enriquecedora y recomendable. 
                     Además tienen una tienda con productos de la tierra y organizan catas y otras actividades. 
                     Para no perdérselo.
+                    
                 </textarea>
             </div>
             <div class="form-group">

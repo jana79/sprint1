@@ -7,7 +7,7 @@
     <h2 class="text-center py-4">Nuevo usuario colaborador</h2>
     <div>
         <form id="formularioColaborador" method="get" class="pb-5" 
-              action="http://localhost:8000/registroOK">
+              action="http://localhost:8000/registroColOK">
             <div class="form-group">
                 <label for="nombre">Nombre *</label>
                 <input type="text" class="form-control" id="nombre" 

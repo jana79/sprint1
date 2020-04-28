@@ -12,7 +12,7 @@
         en la aplicación.</h2>
     
     <div class="col-sm-9 offset-sm-4 pt-3 pb-5">
-           <a href="http://localhost:8000/login" class="btn btn-verde mr-2">
+           <a href="http://localhost:8000/registrado/login" class="btn btn-verde">
        Login
     </a>    
                     

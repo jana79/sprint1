@@ -28,6 +28,9 @@ Route::get('/colaborador/logout', 'ColaboradorController@logout');
 Route::get('/colaborador/inicio', 'ColaboradorController@inicio');
 Route::get('/colaborador/actividades', 'ColaboradorController@actividades');
 Route::get('/colaborador/colabora', 'ColaboradorController@colaborar');
+Route::get('/colaborador/colabora/colaborador', 'ColaboradorController@colaborador');
+Route::get('/colaborador/colabora/registrado', 'ColaboradorController@registrado');
+Route::get('/registroColOK', 'ColaboradorController@registroOK');
 Route::get('/colaborador/contacta', 'ColaboradorController@contactar');
 Route::get('/colaborador/naturaleza', 'ColaboradorController@naturaleza');
 Route::get('/colaborador/ocio', 'ColaboradorController@ocio');
@@ -77,6 +80,53 @@ Route::get('/colaborador/respuestaContacto', 'ColaboradorController@respuestaCon
 Route::get('/colaborador/bloqueado', 'ColaboradorController@inicioBloqueado');
 Route::get('/colaborador/bloqueado/login', 'ColaboradorController@loginBloqueado');
 Route::get('/colaborador/bloqueadoUsuario', 'ColaboradorController@bloqueadoUsuario');
+
+//Usuario registrado
+Route::get('/registrado', 'RegistradoController@home');
+Route::get('/registrado/login', 'RegistradoController@login');
+Route::get('/registrado/logout', 'RegistradoController@logout');
+Route::get('/registrado/inicio', 'RegistradoController@inicio');
+Route::get('/registrado/actividades', 'RegistradoController@actividades');
+Route::get('/registrado/colabora', 'RegistradoController@colaborar');
+Route::get('/registrado/colabora/colaborador', 'RegistradoController@colaborador');
+Route::get('/registrado/colabora/registrado', 'RegistradoController@registrado');
+Route::get('/registroRegOK', 'RegistradoController@registroOK');
+Route::get('/registrado/contacta', 'RegistradoController@contactar');
+Route::get('/registrado/naturaleza', 'RegistradoController@naturaleza');
+Route::get('/registrado/ocio', 'RegistradoController@ocio');
+Route::get('/registrado/tradicion', 'RegistradoController@tradicion');
+Route::get('/registrado/patrimonio', 'RegistradoController@patrimonio');
+Route::get('/registrado/poblaciones', 'RegistradoController@poblaciones');
+Route::get('/registrado/poblaciones/abanto', 'RegistradoController@abanto');
+Route::get('/registrado/poblaciones/acered', 'RegistradoController@acered');
+Route::get('/registrado/poblaciones/agon', 'RegistradoController@agon');
+Route::get('/registrado/poblaciones/borja', 'RegistradoController@borja');
+Route::get('/registrado/poblaciones/borja/museoVino', 'RegistradoController@museoVino');
+Route::get('/registrado/poblaciones/borja/ecceHomo', 'RegistradoController@ecceHomo');
+Route::get('/registrado/poblaciones/borja/ecceHomoImagen', 'RegistradoController@ecceHomoImagen');
+Route::get('/registrado/poblaciones/borja/ecceHomoComentario', 'RegistradoController@ecceHomoComentario');
+Route::get('/registrado/poblaciones/borja/ecceHomoComentarioEditado', 'RegistradoController@ecceHomoComentarioEditado');
+Route::get('/registrado/poblaciones/borja/colegiata', 'RegistradoController@colegiata');
+Route::get('/registrado/poblaciones/daroca/gallocanta', 'RegistradoController@gallocanta');
+Route::get('/registrado/poblaciones/nuevalos/monPiedra', 'RegistradoController@monPiedra');
+Route::get('/registrado/poblaciones/calatayud/zombi', 'RegistradoController@zombi');
+Route::get('/registrado/poblaciones/daroca/musicaAntigua', 'RegistradoController@musicaAntigua');
+Route::get('/registrado/poblaciones/agramonte/rutaAG2', 'RegistradoController@moncayo');
+Route::get('/registrado/poblaciones/uncastillo/bañales', 'RegistradoController@bañales');
+Route::get('/registrado/poblaciones/mequinenza/castillo', 'RegistradoController@mequinenza');
+Route::get('/registrado/poblaciones/ateca/mascara', 'RegistradoController@mascara');
+Route::get('/registrado/poblaciones/tarazona/cipotegato', 'RegistradoController@cipotegato');
+Route::get('/registrado/poblaciones/cetina/contradanza', 'RegistradoController@contradanza');
+Route::get('/registrado/formImagen', 'RegistradoController@formImagen');
+Route::get('/registrado/eliminarFoto', 'RegistradoController@eliminarFoto');
+Route::get('/registrado/eliminarFotoOK', 'RegistradoController@eliminarFotoOK');
+Route::get('/registrado/formComentario', 'RegistradoController@formComentario');
+Route::get('/registrado/editarComentario', 'RegistradoController@editarComentario');
+Route::get('/registrado/editarComentarioOK', 'RegistradoController@editarComentarioOK');
+Route::get('/registrado/eliminarComentario', 'RegistradoController@eliminarComentario');
+Route::get('/registrado/eliminarComentarioOK', 'RegistradoController@eliminarComentarioOK');
+Route::get('/registrado/respuestaContacto', 'RegistradoController@respuestaContacto');
+
 
 //Usuario general sin registrar
 Route::get('/poblaciones', 'UsuarioController@poblaciones');

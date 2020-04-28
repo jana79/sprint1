@@ -17,9 +17,9 @@
             <ul>
                 <li>Añadir comentarios</li>
                 <li>Añadir fotografías</li>
-                <li>Inscribirse en actividades</li>
+                
             </ul>
-            <a href="http://localhost:8000/colabora/registrado" class="btn btn-verde align-self-center">Registrado</a>
+            <a href="http://localhost:8000/colaborador/colabora/registrado" class="btn btn-verde align-self-center">Registrado</a>
         </div>
         <div class="col-12">
             <i class="fas fa-user col-2"></i> Usuario colaborador
@@ -28,7 +28,7 @@
                 <li>Añadir comentarios</li>
                 <li>Añadir fotografías</li>
             </ul>
-                <a href="http://localhost:8000/colabora/colaborador" class="btn btn-verde">Colaborador</a>
+                <a href="http://localhost:8000/colaborador/colabora/colaborador" class="btn btn-verde">Colaborador</a>
             </div>
         </div>        
     </div>

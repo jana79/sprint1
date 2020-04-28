@@ -17,7 +17,7 @@
             <ul>
                 <li>Añadir comentarios</li>
                 <li>Añadir fotografías</li>
-                <li>Inscribirse en actividades</li>
+                
             </ul>
             <a href="http://localhost:8000/colabora/registrado" class="btn btn-verde align-self-center">Registrado</a>
         </div>

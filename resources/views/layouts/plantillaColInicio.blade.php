@@ -30,7 +30,7 @@
                 <img class="logotipo ml-2" src="{{asset('images/logo-zarural.png')}}">
             </a>
             <div>
-                <a href="http://localhost:8000/registro" class="btn btn-verde mr-4">
+                <a href="http://localhost:8000/colaborador/registro" class="btn btn-verde mr-4">
                     Registro
                 </a>
                 <a href="http://localhost:8000/colaborador/login" class="btn btn-verde mr-2">
@@ -50,16 +50,16 @@
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav container d-flex justify-content-between">
                         <li class="nav-item active">
-                            <a class="nav-link" href="http://localhost:8000/poblaciones">Poblaciones</a>
+                            <a class="nav-link" href="http://localhost:8000/colaborador/poblaciones">Poblaciones</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="http://localhost:8000/actividades">Actividades</a>
+                            <a class="nav-link" href="http://localhost:8000/colaborador/actividades">Actividades</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="http://localhost:8000/colabora">Colabora</a>
+                            <a class="nav-link" href="http://localhost:8000/colaborador/colabora">Colabora</a>
                         </li>       
                         <li class="nav-item active">
-                            <a class="nav-link" href="http://localhost:8000/contacta">Contacta</a>
+                            <a class="nav-link" href="http://localhost:8000/colaborador/contacta">Contacta</a>
                         </li>
                     </ul>
                 </div>
@@ -71,7 +71,7 @@
             <div class="row h-100 m-0 overlay">
                 <div class="col-12 my-auto">
                     <h3 class="text-center text-light">¡Encuentra planes interesantes!</h3>
-                    <form class="form-inline  justify-content-center" action="http://localhost:8000/poblaciones/borja">
+                    <form class="form-inline  justify-content-center" action="http://localhost:8000/colaborador/poblaciones/borjaUsuario">
                         <input class="form-control mr-sm-2" type="text" placeholder="Borja">Borja
                         <button class=" btn btn-verde" type="submit">Buscar</button>
                     </form>

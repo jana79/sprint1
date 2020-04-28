@@ -9,12 +9,12 @@
 <div class="container mt-5 mb-5 shadow col-md-6 pl-5 pr-5">					
     <h2 class="text-center py-3">Inicio de sesión</h2>
     <div>
-        <form id="formularioLogin" method="get" class="form-horizontal pb-5" action="http://localhost:8000/colaborador/inicio">
+        <form id="formularioLogin" method="get" class="form-horizontal pb-5" action="#">
             <div class="form-group row">
                 <label class="col-sm-4 col-form-label" for="usuario">Usuario *</label>
                 <div class="col-sm-6">
                     <input type="text" class="form-control" id="usuario" name="usuario" 
-                           placeholder="pegilba" aria-describedby="userHelpBlock">
+                           placeholder="Introduce tu nombre de usuario" aria-describedby="userHelpBlock">
                      <small id="userHelpBlock" class="form-text text-muted">
                         El nombre de usuario debe tener entre 3 y 10 caracteres 
                         y no contener espacios, caracteres especiales o emojis.
@@ -26,7 +26,7 @@
                 <label class="col-sm-4 col-form-label" for="password">Contraseña *</label>
                 <div class="col-sm-6">
                     <input type="password" class="form-control" id="password" name="password" 
-                           placeholder="*********" aria-describedby="passwordHelpBlock">
+                           placeholder="Introduce tu contraseña" aria-describedby="passwordHelpBlock">
                     <small id="passwordHelpBlock" class="form-text text-muted">
                         La contraseña debe tener entre 8 y 20 caracteres, contener 
                         letras y números y no contener espacios, caracteres especiales o emojis.

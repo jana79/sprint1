@@ -58,6 +58,12 @@
                     <li>mail: museovino@docampodeborja.com</li>
                 </ul>
             </div>
+            <div>
+                <a href="http://localhost:8000/colaborador/editarActividad" 
+                   class="btn btn-verde">Editar</a>
+                <a href="http://localhost:8000/colaborador/eliminarActividad" 
+                   class="btn btn-verde">Eliminar</a>
+            </div>
             <div class="clearfix"></div>
             <div class="col-12 d-flex justify-content-between pt-3">
                 <h1>Imágenes</h1>
@@ -96,8 +102,6 @@
         </article>
     </div>
 </div>
-</article>
-</div>
-</div>
+
 @endsection
 

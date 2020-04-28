@@ -5,7 +5,7 @@
 
 <h1>Editar comentario</h1>
 
-<p class="text-center">Utiliza el formulario para añadir un comentario a una actividad.</p>
+<p class="text-center">Utiliza el formulario para editar un comentario en una actividad.</p>
 <div class="container mt-5 mb-5 shadow col-md-6 pl-5 pr-5">					
     <h2 class="text-center py-5">Editar comentario</h2>
     <div>

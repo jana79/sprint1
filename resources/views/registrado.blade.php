@@ -7,21 +7,21 @@
     <h2 class="text-center py-4">Nuevo usuario registrado</h2>
     <div>
         <form id="formularioColaborador" method="get" class="pb-5" 
-              action="http://localhost:8000/registroOK">
+              action="http://localhost:8000/registroRegOK">
             <div class="form-group">
                 <label for="nombre">Nombre *</label>
                 <input type="text" class="form-control" id="nombre" 
-                       placeholder="Pedro">
+                       placeholder="Lucas">
             </div>
             <div class="form-group">
                 <label for="apellidos">Apellidos *</label>
                 <input type="text" class="form-control" id="apellidos" 
-                       placeholder="Gil Barrero">
+                       placeholder="Moreno Abad">
             </div>
             <div class="form-group">
                 <label for="nom_usuario">Nombre de usuario *</label>
                 <input type="text" class="form-control" id="nom_usuario" 
-                       placeholder="pegilba">
+                       placeholder="lucas22">
             </div>
             <div class="form-group">
                 <label for="password">Contraseña *</label>
@@ -31,7 +31,7 @@
             <div class="form-group">
                 <label for="mail">Correo electrónico *</label>
                 <input type="email" class="form-control" id="mail" 
-                       placeholder="pegilba79@gmail.com">
+                       placeholder="lucasin22@gmail.com">
             </div>
            <div class="form-group">
                 <div>

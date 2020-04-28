@@ -1,4 +1,4 @@
-@extends("layouts.plantillaColaborador")
+@extends("layouts.plantillaRegistrado")
 
 
 @section("infoGeneral")
@@ -57,26 +57,30 @@
                     <li>web:<a href="http://docampodeborja.com/">www.docampodeborja.com</a></li>
                     <li>mail: museovino@docampodeborja.com</li>
                 </ul>
+                
                 <div class="clearfix"></div>
-                <div class="col-12 d-flex justify-content-between pt-3">
+               <div class="col-12 d-flex justify-content-between pt-3">
                     <h1>Imágenes</h1>
-                    <div>
-                        <a href="http://localhost:8000/formImagen" 
-                           class="btn btn-verde">Añadir</a>
+                    <div class="my-auto">
+                        <a href="#" 
+                           class="btn btn-verde disabled">Añadir</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 d-flex justify-content-between pt-5">
-                <h1>Comentarios</h1>
-                <div>
-                    <a href="http://localhost:8000/formComentario" 
-                       class="btn btn-verde">Añadir</a>
+                <div class="col-12 d-flex justify-content-between pt-3">
+                    <h1>Comentarios</h1>
+                    <div class="my-auto">
+                        <a href="#" 
+                           class="btn btn-verde disabled">Añadir</a>
+                    </div>
                 </div>
             </div>
         </article>
     </div>
+    <div class="col-lg-12 d-flex justify-content-end mt-4">
+        <a href="#" 
+           class="btn btn-verde disabled">Volver a población</a>
+    </div>
 </div>
-
 
 @endsection
 

@@ -2,313 +2,234 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 
 class RegistradoController extends Controller
 {
     public function home()
     {
         //vista de página principal para hacer login
-        return view('inicioCol');
-    }
-    
-    public function inicioBloqueado()
-    {
-        //vista de página principal para hacer login
-        return view('inicioBloqueado');
+        return view('inicioReg');
     }
     
     public function login()
     {
         //vista de página principal para hacer login
-        return view('login');
-    }
-    
-    public function loginBloqueado()
-    {
-        //vista de página principal para hacer login
-        return view('loginBloqueado');
-    }
-    
-    public function bloqueadoUsuario()
-    {
-        //vista de página principal para hacer login
-        return view('bloqueadoUsuario');
+        return view('loginReg');
     }
     
     public function inicio()
     {
         //vista de página principal para hacer login
-        return view('inicioColOK');
+        return view('inicioRegOK');
     }
     public function logout()
     {
         //vista de página principal para hacer login
-        return view('logout');
+        return view('logoutReg');
     }
     
     public function colaborar()
     {
-         return view('colaboraUsuario');
+         return view('colaboraReg');
+    }
+    public function colaborador()
+    {
+        //vista formulario de colaborador
+         return view('colaborador');
     }
     
+    public function registrado()
+    {
+        //vista formulario de registrado
+         return view('registrado');
+    }
+    
+    public function registroOK()
+    {
+        //vista formulario de registrado
+         return view('registroRegOK');
+    }
     public function contactar()
     {
-         return view('contactaUsuario');
+         return view('contactaReg');
     }
     
     public function respuestaContacto()
     {
-         return view('respuestaContactoUsuario');
+         return view('respuestaContactoReg');
     }
         
     public function actividades()
     {
-         return view('actividadesUsuario');
+         return view('actividadesReg');
     }
     
     public function naturaleza()
     {
-        return view('naturalezaUsuario');
+        return view('naturalezaReg');
     }
     
     public function patrimonio()
     {
-        return view('patrimonioUsuario');
+        return view('patrimonioReg');
     }
     
     public function ocio()
     {
-        return view('ocioUsuario');
+        return view('ocioReg');
     }
     
     public function tradicion()
     {
-        return view('tradicionUsuario');
+        return view('tradicionReg');
     }
     
     
     
     public function poblaciones()
     {
-         return view('poblacionesUsuario');
+         return view('poblacionesReg');
     }
     
     public function abanto()
     {
-         return view('poblaciones.abantoColaborador');
+         return view('poblaciones.abantoReg');
     }
     
     public function acered()
     {
-         return view('poblaciones.aceredColaborador');
+         return view('poblaciones.aceredReg');
     }
     
     public function agon()
     {
-         return view('poblaciones.agonColaborador');
+         return view('poblaciones.agonReg');
+    }
+    
+     public function borja()
+    {
+         return view('poblaciones.borjaReg');
     }
     
     public function formComentario()
     {
-         return view('formComentario');
+         return view('formComentarioReg');
     }
     
     public function editarComentario()
     {
-         return view('formEditarComentario');
+         return view('formEditarComReg');
     }
     
     public function editarComentarioOK()
     {
-         return view('editarComentarioOK');
+         return view('editarComRegOK');
     }
     
     public function eliminarComentario()
     {
-         return view('formEliminarComentario');
+         return view('formEliminarComReg');
     }
     
     public function eliminarComentarioOK()
     {
-         return view('eliminarComentarioOK');
+         return view('eliminarComRegOK');
     }
     
     public function formImagen()
     {
-         return view('formImagen');
+         return view('formImagenReg');
     }
     
     public function eliminarFoto()
     {
-         return view('formEliminarFoto');
+         return view('formEliminarFotoReg');
     }
     
     public function eliminarFotoOK()
     {
-         return view('eliminarFotoOK');
+         return view('eliminarFotoRegOK');
     }
     
     public function ecceHomo()
     {
-         return view('ecceHomoUsuario');
+         return view('ecceHomoReg');
+    }
+    
+    public function ecceHomoImagen()
+    {
+         return view('ecceHomoImagen');
+    }
+    
+    public function ecceHomoComentario()
+    {
+         return view('ecceHomoComentario');
+    }
+    
+    public function ecceHomoComentarioEditado()
+    {
+         return view('ecceHomoComentarioEditado');
     }
     
     
     public function museoVino()
     {
-         return view('museoVinoUsuario');
+         return view('museoVinoReg');
     }
-    
-    public function museoVinoImagen()
-    {
-         return view('museoVinoConFoto');
-    }
-    
-    public function museoVinoComentario()
-    {
-         return view('museoVinoComentario');
-    }
-    
-    public function museoVinoComentarioEditado()
-    {
-         return view('museoVinoComentarioEditado');
-    }
-    
+        
     public function colegiata()
     {
-         return view('colegiataUsuario');
+         return view('colegiataReg');
     }
     
     public function gallocanta()
     {
-         return view('gallocantaUsuario');
+         return view('gallocantaReg');
     }
     
     public function moncayo()
     {
-         return view('moncayoUsuario');
+         return view('moncayoReg');
     }
     
     public function zombi()
     {
-         return view('zombiUsuario');
+         return view('zombiReg');
     }
     
     public function monPiedra()
     {
-         return view('monPiedraUsuario');
+         return view('monPiedraReg');
     }
     
     public function musicaAntigua()
     {
-         return view('musicaAntiguaUsuario');
+         return view('musicaAntiguaReg');
     }
     
     public function bañales()
     {
-         return view('bañalesUsuario');
+         return view('bañalesReg');
     }
     
     public function mequinenza()
     {
-         return view('mequinenzaUsuario');
+         return view('mequinenzaReg');
     }
     
     public function mascara()
     {
-         return view('mascaraUsuario');
+         return view('mascaraReg');
     }
     
     public function cipotegato()
     {
-         return view('cipotegatoUsuario');
+         return view('cipotegatoReg');
     }
     
     public function contradanza()
     {
-         return view('contradanzaUsuario');
+         return view('contradanzaReg');
     }
     
-    public function sinMuseo()
-    {
-         return view('poblaciones.borjaSinMuseo');
-    }
-      
-    
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }

@@ -1,4 +1,4 @@
-@extends("layouts.plantillaColaborador")
+@extends("layouts.plantillaRegistrado")
 
 
 @section("infoGeneral")
@@ -42,25 +42,25 @@
                 <p>Las fiestas en honor de San Atilano han comenzado … </p> 
                 
                 <div class="clearfix"></div>
-                <div class="col-12 d-flex justify-content-between pt-3">
+               <div class="col-12 d-flex justify-content-between pt-3">
                     <h1>Imágenes</h1>
-                    <div>
-                        <a href="http://localhost:8000/formImagen" 
+                    <div class="my-auto">
+                        <a href="#" 
                            class="btn btn-verde disabled">Añadir</a>
                     </div>
                 </div>
                 <div class="col-12 d-flex justify-content-between pt-3">
                     <h1>Comentarios</h1>
-                    <div>
-                        <a href="http://localhost:8000/formComentario" 
+                    <div class="my-auto">
+                        <a href="#" 
                            class="btn btn-verde disabled">Añadir</a>
                     </div>
                 </div>
             </div>
         </article>
     </div>
-    <div class="col-lg-12 d-flex justify-content-end">
-        <a href="http://localhost:8000/colaborador/poblaciones/borjaUsuario/conMuseo" 
+    <div class="col-lg-12 d-flex justify-content-end mt-4">
+        <a href="#" 
            class="btn btn-verde disabled">Volver a población</a>
     </div>
 </div>
