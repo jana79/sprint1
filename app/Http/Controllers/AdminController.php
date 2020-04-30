@@ -6,12 +6,7 @@ use App\Usuario as Usuario;
 
 class AdminController extends Controller
 {
-    public function homeConNombre($nombre)
-    {
-        //vista de página principal para hacer login como admin
-        return view('inicioAdminNombre')
-        ->with('nombre', $nombre);
-    }
+  
     public function home()
     {
         //vista de página principal para hacer login como admin

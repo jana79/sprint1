@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 //Usuario administrador
-Route::get('/admin/{nombre}', 'AdminController@homeConNombre');
 Route::get('/admin', 'AdminController@home');
 Route::get('/admin/login', 'AdminController@login');
 Route::get('/admin/inicio', 'AdminController@inicio');

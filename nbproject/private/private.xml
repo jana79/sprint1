@@ -3,9 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/var/www/laravel/sprint1/resources/views/poblaciones/abanto.blade.php</file>
-            <file>file:/var/www/laravel/sprint1/public/css-cp/custom.css</file>
-            <file>file:/var/www/laravel/sprint1/resources/views/inicio.blade.php</file>
+            <file>file:/var/www/laravel/sprint1/app/Http/Controllers/UsuarioController.php</file>
+            <file>file:/var/www/laravel/sprint1/routes/web.php</file>
+            <file>file:/var/www/laravel/sprint1/app/Http/Controllers/AdminController.php</file>
+            <file>file:/var/www/laravel/sprint1/resources/views/login.blade.php</file>
         </group>
     </open-files>
 </project-private>
