@@ -11,7 +11,7 @@
                 <div class="item-img-wrap mb-4">
                     <img src="{{asset('images/gallocanta.jpg')}}" 
                          alt="Laguna de Gallocanta" 
-                         class="img-responsive portGral">
+                         class="img-fluid portGral">
                 </div>
             </header>
             <div>

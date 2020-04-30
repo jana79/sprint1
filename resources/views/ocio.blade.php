@@ -11,8 +11,8 @@
 <div class="row container mx-auto pt-3">
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 pt-3 text-center verde">Survival Zombi</h4>
-        <img class="imgInicio" src="{{asset('images/zombi.jpg')}}" 
-             alt="Survival Zombi">
+        <img class="img-fluid" src="{{asset('images/zombi.jpg')}}" 
+             alt="Survival Zombie">
         <p class="pt-4">Las calles y rincones de Calatayud volverán a ser sede 
             de una nueva edición del evento 'Survival Zombie', que en esta ocasión 
             tendrá lugar el sábado 7 de noviembre de 2020. Desde las 21.00 a las 
@@ -27,7 +27,7 @@
     </div>
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 pt-3 text-center verde">Museo del vino</h4>  
-        <img class="imgInicio" src="{{asset('images/museo-vino-borja.jpg')}}" 
+        <img class="img-fluid" src="{{asset('images/museoVino.jpg')}}" 
              alt="Museo del vino">
         <p class="pt-4">Borja es territorio de vinos. La tradición 
             del cultivo de viñedos y el establecimiento de bodegas 
@@ -44,7 +44,7 @@
     </div>
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 pt-3 text-center verde">Música Antigua</h4>  
-        <img class="imgInicio" src="{{asset('images/musicaAntigua.jpg')}}" 
+        <img class="img-fluid" src="{{asset('images/musicaAntigua.jpg')}}" 
              alt="Festival de Música Antigua">
         <p class="pt-4">Iniciativa de la Institución Fernando el Católico y la 
             Diputación Provincial de Zaragoza, cada verano Daroca acoge una nueva

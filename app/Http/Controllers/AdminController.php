@@ -1,10 +1,17 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Usuario as Usuario;
 
 
 class AdminController extends Controller
 {
+    public function homeConNombre($nombre)
+    {
+        //vista de página principal para hacer login como admin
+        return view('inicioAdminNombre')
+        ->with('nombre', $nombre);
+    }
     public function home()
     {
         //vista de página principal para hacer login como admin
@@ -25,7 +32,8 @@ class AdminController extends Controller
     public function listado()
     {
         //vista de listado de usuarios
-        return view('listadoUsuarios');
+        $usuarios = Usuario::all();
+        return view('listadoUsuarios', compact($usuarios));
     }
     
     public function bloqueado()

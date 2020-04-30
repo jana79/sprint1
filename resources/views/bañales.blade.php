@@ -11,7 +11,7 @@
                 <div class="item-img-wrap mb-4">
                     <img src="{{asset('images/bañales.jpg')}}" 
                          alt="Bañales de Uncastillo" 
-                         class="img-responsive portGral">
+                         class="img-fluid portGral">
                 </div>
             </header>
             <div>

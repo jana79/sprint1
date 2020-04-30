@@ -9,7 +9,7 @@
         <article>
             <header>
                 <div class="item-img-wrap mb-4">
-                    <img src="{{asset('images/imgBorja.jpg')}}" 
+                    <img src="{{asset('images/borja.jpg')}}" 
                          class="img-fluid portGral" 
                          alt="Borja">
                 </div>

@@ -77,7 +77,7 @@ body > .container {
 }
 
 .portada{
-    background-image: url('../images/cascada_1.jpg');
+    background-image: url('../images/cascada.jpg');
     height: 50vh;
     background-size: cover;
 }
@@ -103,19 +103,10 @@ body > .container {
 }
 
 .portGral{
-    width: 65%;
+    width: 90%;
     margin: auto;
     display: block;
     
-}
-
-.imgInicio{
-    width: 313px;
-    height: 200px;
-}
-
-.imagenes{
-    width: 45%;
 }
 
 .imgAct{

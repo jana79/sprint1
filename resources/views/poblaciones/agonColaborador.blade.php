@@ -8,9 +8,9 @@
         <article>
             <header>
                 <div class="item-img-wrap mb-4">
-                    <img src="https://www.turismodezaragoza.es/provincia/img/003-00-0-0.jpg" 
-                         class="img-responsive portGral" 
-                         alt="Agón">
+                    <img src="{{asset('images/agon.jpg')}}" 
+                         class="img-fluid portGral" 
+                         alt="Agon">
                 </div>
             </header>
             <div class="info">

@@ -1,9 +1,15 @@
-@extends("layouts.plantillaColInicio")
+@extends("layouts.plantillaAdminInicio")
 
 
 @section("infoGeneral")
 <div>
-    <h1>Bienvenido a Zar~rural</h1>
+
+    @if(isset($nombre) && $nombre == 'Jana')
+    <h1>Bienvenido de nuevo {{$nombre}}</h1>
+    @endif
+    @if(isset($nombre) && $nombre != 'Jana')
+    <h1> Bienvenido {{$nombre}} </h1>
+    @endif
 </div>
 <p class="lead">Si estás buscando un plan para el fin de semana, 
     Semana Santa o incluso vacaciones, ¡estás en el sitio correcto!.</p>
@@ -22,7 +28,7 @@
             del siglo XX obra del artista aragonés Elías García Martínez y 
             ubicada en el Santuario de Misericordia.</p>
         <div class="d-flex justify-content-center pb-3">
-            <a href="http://localhost:8000/colaborador/poblaciones/borjaUsuario/ecceHomo" class="btn btn-verde">
+            <a href="http://localhost:8000/poblaciones/borja/ecceHomo" class="btn btn-verde">
                 Ver actividad
             </a>
         </div>
@@ -36,7 +42,7 @@
             cascadas, bellísimos saltos de agua y grutas. Se trata de uno 
             de los parajes más bellos y visitados de Aragón.</p>
         <div class="d-flex justify-content-center pb-3">
-            <a href="http://localhost:8000/colaborador/poblaciones/nuevalos/monPiedra" class="btn btn-verde">
+            <a href="http://localhost:8000/poblaciones/nuevalos/monPiedra" class="btn btn-verde">
                 Ver actividad
             </a>
         </div>
@@ -50,7 +56,7 @@
             el baile con sus palmadas y órdenes para dar comienzo a las mudanzas,
             realizadas por los otros ocho "contradanceros".</p>
         <div class="d-flex justify-content-center">
-            <a href="http://localhost:8000/colaborador/poblaciones/cetina/contradanza" class="btn btn-verde">
+            <a href="http://localhost:8000/poblaciones/cetina/contradanza" class="btn btn-verde">
                 Ver actividad
             </a>
         </div>

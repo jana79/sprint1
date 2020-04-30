@@ -9,9 +9,9 @@
         <article>
             <header>
                 <div class="item-img-wrap mb-4">
-                    <img src="{{asset('images/ecceHomo.jpeg')}}" 
+                    <img src="{{asset('images/ecceHomo.jpg')}}" 
                          alt="EcceHomo" 
-                         class="img-responsive portGral">
+                         class="img-fluid portGral">
                 </div>
             </header>
             <div>

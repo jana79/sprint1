@@ -9,7 +9,7 @@
         <article>
             <header>
                 <div class="item-img-wrap mb-4">
-                    <img src="{{asset('images/imgBorja.jpg')}}" 
+                    <img src="{{asset('images/borja.jpg')}}" 
                          class="img-fluid portGral" 
                          alt="Borja">
                 </div>
@@ -56,7 +56,7 @@
                 <div class="row container mx-auto pt-2">
                     <div class="col-12 col-md-4">
                         <h4 class="h4 pb-3 pt-3 text-center verde">Ecce Homo</h4>
-                        <img class="imgInicio" src="{{asset('images/ecceHomo.jpeg')}}" 
+                        <img class="img-fluid" src="{{asset('images/ecceHomo.jpg')}}" 
                              alt="EcceHomo">
                         <p class="pt-4">En agosto de 2012, una vecina de Borja, Cecilia Giménez, 
                             situó al municipio zaragozano de Borja en el mapa mundial gracias a su 
@@ -72,7 +72,7 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <h4 class="h4 pb-3 pt-3 text-center verde">Colegiata de Sta. María</h4>
-                        <img class="imgInicio " src="{{asset('images/colegiataBorja.jpg')}}" 
+                        <img class="img-fluid " src="{{asset('images/colegiata.jpg')}}" 
                              alt="Colegiata de Santa María">
                         <p class="pt-4">Entre los edificios históricos de Borja 
                             sobresale la colegiata de Santa María. Su variedad 
@@ -92,7 +92,7 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <h4 class="h4 pb-3 pt-3 text-center verde">Museo del vino</h4>  
-                        <img class="imgInicio " src="{{asset('images/museo-vino-borja.jpg')}}" 
+                        <img class="img-fluid " src="{{asset('images/museoVino.jpg')}}" 
                              alt="Museo del vino">
                         <p class="pt-4">Borja es territorio de vinos. La tradición 
                             del cultivo de viñedos y el establecimiento de bodegas 

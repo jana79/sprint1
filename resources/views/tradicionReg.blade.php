@@ -11,7 +11,7 @@
 <div class="row container mx-auto pt-3">
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 text-center verde">La Máscara de Ateca</h4>
-        <img class="imgInicio" src="{{asset('images/mascara.jpg')}}" 
+        <img class="img-fluid" src="{{asset('images/mascara.jpg')}}" 
              alt="Máscara de Ateca">
         <p class="pt-4">Tras el solsticio de invierno, las hogueras de enero y principios 
             de febrero calientan el ambiente festivo y nos preparan para el carnaval. 
@@ -27,7 +27,7 @@
     </div>
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 text-center verde">El Cipotegato</h4>
-        <img class="imgInicio" src="{{asset('images/cipotegato.jpg')}}" 
+        <img class="img-fluid" src="{{asset('images/cipotegato.jpg')}}" 
              alt="Cipotegato de Tarazona">
         <p class="pt-4">El Cipotegato es la tradición más popular de la ciudad 
             de Tarazona. Cada año, del 27 de agosto al 1 de septiembre, 
@@ -43,7 +43,7 @@
     </div>
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 text-center verde">La Contradanza</h4>  
-        <img class="imgInicio" src="{{asset('images/contradanza.jpg')}}" 
+        <img class="img-fluid" src="{{asset('images/contradanza.jpg')}}" 
              alt="Contradanza de Cetina">
         <p class="pt-4">La Contradanza de Cetina es una expresión espectacular 
             única, que se representa en Cetina la noche del 19 de Mayo en honor 

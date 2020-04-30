@@ -9,9 +9,9 @@
         <article>
             <header>
                 <div class="item-img-wrap mb-4">
-                    <img src="{{asset('images/ecceHomo.jpeg')}}" 
+                    <img src="{{asset('images/ecceHomo.jpg')}}" 
                          alt="EcceHomo" 
-                         class="img-responsive portGral">
+                         class="img-fluid portGral">
                 </div>
             </header>
             <div>
@@ -68,8 +68,8 @@
                 <div class="row container mx-auto pt-3">
 
                     <div class="col-12 col-md-3">
-                        <a href="{{asset('../images/ecceHomo.jpg')}}"> 
-                            <img class="img-fluid" src="{{asset('../images/ecceHomoFoto.jpg')}}" 
+                        <a href="{{asset('images/fotoEcceHomo.jpg')}}"> 
+                            <img class="img-fluid" src="{{asset('images/fotoEcceHomo.jpg')}}" 
                                  alt="En Borja viendo al Ecce Homo">
                         </a>  
                         <div>

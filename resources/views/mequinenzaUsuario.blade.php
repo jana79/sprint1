@@ -11,7 +11,7 @@
                 <div class="item-img-wrap mb-4">
                     <img src="{{asset('images/mequinenza.jpg')}}" 
                          alt="Castillo de Mequinenza" 
-                         class="img-responsive portGral">
+                         class="img-fluid portGral">
                 </div>
             </header>
             <div>

@@ -15,7 +15,7 @@
 <div class="row container mx-auto pt-3">
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 pt-3  text-center verde">Ecce Homo</h4>
-        <img class="imgInicio" src="{{asset('images/ecceHomo.jpeg')}}" alt="EcceHomo">
+        <img class="img-fluid" src="{{asset('images/ecceHomo.jpg')}}" alt="EcceHomo">
         <p class="pt-4">En agosto de 2012, una vecina de Borja, Cecilia Giménez, situó al 
             municipio zaragozano de Borja en el mapa mundial gracias a su 
             singular restauración del Ecce Homo, una pintura mural de principios 
@@ -29,7 +29,7 @@
     </div>
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 pt-3  text-center verde">Monasterio de Piedra</h4>
-        <img class="imgInicio" src="{{asset('images/monPiedra.jpg')}}" alt="Monasterio de Piedra">
+        <img class="img-fluid" src="{{asset('images/monPiedra.jpg')}}" alt="Monasterio de Piedra">
         <p class="pt-4">En la localidad de Nuévalos, a escasos kilómetros de Calatayud, 
                     se emplaza el famoso Monasterio de Piedra, un antiguo cenobio 
                     cisterciense ubicado en un hermoso parque natural repleto de 
@@ -43,7 +43,7 @@
     </div>
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 pt-3 text-center verde">La Contradanza</h4>  
-        <img class="imgInicio" src="{{asset('images/contradanza.jpg')}}" alt="EcceHomo">
+        <img class="img-fluid" src="{{asset('images/contradanza.jpg')}}" alt="Contradanza">
         <p class="pt-4">La Contradanza de Cetina es una expresión espectacular 
             única, que se representa en Cetina la noche del 19 de Mayo en honor 
             de San Juan Lorenzo. El personaje llamado “el diablo” es el que dirige 

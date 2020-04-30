@@ -9,9 +9,9 @@
         <article>
             <header>
                 <div class="item-img-wrap mb-4">
-                    <img src="{{asset('images/colegiataBorja.jpg')}}" 
+                    <img src="{{asset('images/colegiata.jpg')}}" 
                          alt="Colegiata de Santa María" 
-                         class="img-responsive portGral">
+                         class="img-fluid portGral">
                 </div>
             </header>
             <div>

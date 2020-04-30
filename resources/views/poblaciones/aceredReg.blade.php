@@ -8,8 +8,8 @@
         <article>
             <header>
                 <div class="item-img-wrap mb-4">
-                    <img src="https://www.turismodezaragoza.es/provincia/img/002-00-0-0.jpg" 
-                         class="img-responsive portGral" 
+                    <img src="{{asset('images/acered.jpg')}}" 
+                         class="img-fluid portGral" 
                          alt="Acered">
                 </div>
             </header>

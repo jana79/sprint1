@@ -11,7 +11,7 @@
 <div class="row container mx-auto pt-3">
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 text-center verde">Los Bañales de Uncastillo</h4>
-        <img class="imgInicio" src="{{asset('images/bañales.jpg')}}" 
+        <img class="img-fluid" src="{{asset('images/bañales.jpg')}}" 
              alt="Los Bañales de Uncastillo">
         <p class="pt-4">Los Bañales es un yacimiento arqueológico
         donde se han hallado restos de una ciudad romana. Visita este magnífico 
@@ -27,7 +27,7 @@
     </div>
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 text-center verde">Colegiata de Santa María</h4>
-        <img class="imgInicio" src="{{asset('images/colegiataBorja.jpg')}}" 
+        <img class="img-fluid" src="{{asset('images/colegiata.jpg')}}" 
              alt="Colegiata de Santa María">
         <p class="pt-4">Entre los edificios históricos de Borja 
             sobresale la colegiata de Santa María. Su variedad 
@@ -47,7 +47,7 @@
     </div>
     <div class="col-12 col-md-4">
         <h4 class="h4 pb-3 text-center verde">El castillo de Mequinenza</h4>  
-        <img class="imgInicio" src="{{asset('images/mequinenza.jpg')}}" 
+        <img class="img-fluid" src="{{asset('images/mequinenza.jpg')}}" 
              alt="Castillo de Mequinenza">
         <p class="pt-4">El Castillo de Mequinenza y sus aledaños son propiedad de 
             la Fundación Endesa. Esta situado en lo alto de una colina, a unos 185 

@@ -9,8 +9,8 @@
         <article>
             <header>
                 <div class="item-img-wrap mb-4">
-                    <img src="{{asset('images/imgAbanto.jpg')}}" 
-                         class="img-responsive portGral" 
+                    <img src="{{asset('images/abanto.jpg')}}" 
+                         class="img-fluid portGral" 
                          alt="Abanto">
                 </div>
             </header>

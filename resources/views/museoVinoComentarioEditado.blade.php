@@ -9,9 +9,9 @@
         <article>
             <header>
                 <div class="item-img-wrap mb-4">
-                    <img src="{{asset('images/museo-vino-borja.jpg')}}" 
+                    <img src="{{asset('images/museoVino.jpg')}}" 
                          alt="Museo del vino de Borja" 
-                         class="img-responsive portGral">
+                         class="img-fluid portGral">
                 </div>
             </header>
             <div>
