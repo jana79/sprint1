@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 //Usuario administrador
 Route::get('/admin', 'AdminController@home');
 Route::get('/admin/login', 'AdminController@login');
